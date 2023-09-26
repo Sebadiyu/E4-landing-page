@@ -1,0 +1,62 @@
+/* tablet */
+
+@media (max-width: 992px) {
+  .img-hero {
+    display: none;
+  }
+
+  .hero-container {
+    max-width: 80%;
+    display: center;
+  }
+  .slogan {
+    width: 500px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info-container {
+    max-width: 650px;
+  }
+
+  .categories-h2,
+  .recetas-h2,
+  .whyus-h2 {
+    max-width: 992px;
+    width: 80%;
+  }
+
+  .navbar {
+    max-width: 992px;
+    width: 100%;
+  }
+
+  .categories-links {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer {
+    flex-direction: row;
+    width: 100%;
+  }
+  .footer-redes {
+    flex-wrap: wrap;
+    height: 200px;
+  }
+  iframe {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .Navbar ul i {
+    display: none;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  iframe {
+    display: none;
+  }
+}

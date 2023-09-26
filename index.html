@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E2: Challenge Landing Page - Navbar</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaqueries.css" />
+    <script
+      src="https://kit.fontawesome.com/5aedba6db2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="body">
+    <header>
+      <label for="toggle-menu"
+        ><i class="fa-solid fa-bars-staggered"></i
+      ></label>
+      <input type="checkbox" id="toggle-menu" />
+      <nav class="Navbar">
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./assets/img logos/logo.png" alt="Logo landing-page"
+          /></a>
+        </div>
+
+        <ul class="list-ul">
+          <li class="options">
+            <a class="options-a" href="#">
+              <i class="fa-solid fa-house-chimney-user"></i>Inicio</a
+            >
+          </li>
+          <li class="options">
+            <a class="options-a" href="#">
+              <i class="fa-solid fa-bell"></i>Notificaciones</a
+            >
+          </li>
+          <li class="options">
+            <a class="options-a" href="#">
+              <i class="fa-solid fa-kitchen-set"></i>Recetas</a
+            >
+          </li>
+          <li class="options">
+            <a class="options-a" href="#">
+              <i class="fa-solid fa-user-group"></i>Nosotros</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- HERO -->
+      <section class="hero-container">
+        <div class="slogan">
+          <h1 id="h1" class="title-hero">
+            El sabor de la excelencia en tu hogar.
+          </h1>
+          <p class="slogan-hero">
+            Transforma tu cocina en un restaurante 5 estrellas con nuestras
+            recetas exclusivas.
+          </p>
+          <div class="More-info">
+            <a href="#" class="More-info1">Destacados</a>
+            <a href="#" class="More-info2">VerMas</a>
+          </div>
+        </div>
+        <div class="img-hero">
+          <img src="assets/img main/sorrentinos.jpg" alt="img hero" />
+        </div>
+      </section>
+      <!-- /HERO -->
+      <!-- INFO -->
+      <section class="info-container">
+        <p class="info-text">
+          Nuestros ingrendientes frescos y técnicas culinarias te llevarán en un
+          viaje gastronómico que deleitará todos tus sentidos. Descubre la magia
+          de cocinar en casa como nunca antes lo habías hecho. ¡Prepara platos
+          que impresionarán incluso a los paladares más exigentes y haz de cada
+          comida una experiencia inolvidable!
+        </p>
+      </section>
+      <!-- /INFO -->
+      <!-- CATEGORIES -->
+      <section class="categories-container">
+        <div class="categories-h2"><h2>CATEGORÍAS</h2></div>
+        <div class="categories-links">
+          <div class="categories">
+            <a href="#"
+              ><img src="./assets/img categories/carne.webp" alt="carne" />
+              <div class="categories-h3">
+                <h3>CARNES</h3>
+              </div></a
+            >
+          </div>
+          <div class="categories">
+            <a href="#"
+              ><img src="./assets/img categories/pasta.png" alt="pasta" />
+              <div class="categories-h3">
+                <h3>PASTAS</h3>
+              </div></a
+            >
+          </div>
+          <div class="categories">
+            <a href="#"
+              ><img
+                src="./assets/img categories/ensalada.webp"
+                alt="ensalada"
+              />
+              <div class="categories-h3">
+                <h3>ENSALADAS</h3>
+              </div></a
+            >
+          </div>
+          <div class="categories">
+            <a href="#"
+              ><img src="./assets/img categories/postre.jpeg" alt="postre" />
+              <div class="categories-h3">
+                <h3>POSTRES</h3>
+              </div></a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- /CATEGORIES -->
+      <!-- RECETAS DESTACADAS -->
+      <section class="recetas-container">
+        <div class="recetas-h2">
+          <h2>RECETAS DESTACADAS</h2>
+        </div>
+        <div class="recetas-destacadas">
+          <div class="recetas-destacadas-card">
+            <a href="#"
+              ><img
+                src="./assets/img main/imgrecetasdestacadas/babaganoush.jpg"
+                alt="babaganoush"
+              />
+
+              <div class="info-recetas-h3">
+                <h3>Babaganoush clásico</h3>
+              </div>
+              <div class="info-recetas-card">
+                <div class="info-recetas">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>60min</p>
+                </div>
+                <img
+                  src="https://img.freepik.com/vector-premium/argentina-bandera-vector-aislado-colores-oficiales-proporcion-correcta_514344-259.jpg"
+                  alt="bandera arg"
+                />
+              </div>
+            </a>
+          </div>
+
+          <div class="recetas-destacadas-card">
+            <a href="#"
+              ><img
+                src="./assets/img main/imgrecetasdestacadas/strogonoff.jpg"
+                alt="Strogonoff"
+              />
+
+              <div class="info-recetas-h3">
+                <h3>Strogonoff a la crema</h3>
+              </div>
+              <div class="info-recetas-card">
+                <div class="info-recetas">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>60min</p>
+                </div>
+                <img
+                  src="https://img.freepik.com/vector-premium/argentina-bandera-vector-aislado-colores-oficiales-proporcion-correcta_514344-259.jpg"
+                  alt="bandera arg"
+                />
+              </div>
+            </a>
+          </div>
+
+          <div class="recetas-destacadas-card">
+            <a href="#"
+              ><img
+                src="./assets/img main/imgrecetasdestacadas/ensaladakale.jpg"
+                alt="Ensalada de Kale"
+              />
+
+              <div class="info-recetas-h3">
+                <h3>Ensalada de Kale</h3>
+              </div>
+              <div class="info-recetas-card">
+                <div class="info-recetas">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>15 min</p>
+                </div>
+                <img
+                  src="https://img.freepik.com/vector-premium/argentina-bandera-vector-aislado-colores-oficiales-proporcion-correcta_514344-259.jpg"
+                  alt="bandera arg"
+                />
+              </div>
+            </a>
+          </div>
+
+          <div class="recetas-destacadas-card">
+            <a href="#"
+              ><img
+                src="./assets/img main/imgrecetasdestacadas/malfattisespinaca.jpg"
+                alt="Malfattis de Espinaca"
+              />
+
+              <div class="info-recetas-h3">
+                <h3>Malfattis de Espinaca</h3>
+              </div>
+              <div class="info-recetas-card">
+                <div class="info-recetas">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>45 min</p>
+                </div>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/310px-Flag_of_Italy.svg.png"
+                  alt="bandera Italia"
+                />
+              </div>
+            </a>
+          </div>
+
+          <div class="recetas-destacadas-card">
+            <a href="#"
+              ><img
+                src="./assets/img main/imgrecetasdestacadas/chipaguazu.jpg"
+                alt="chipa guazu"
+              />
+
+              <div class="info-recetas-h3">
+                <h3>Chipa Guazu</h3>
+              </div>
+              <div class="info-recetas-card">
+                <div class="info-recetas">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>90 min</p>
+                </div>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Bandera_de_Paraguay.png/640px-Bandera_de_Paraguay.png"
+                  alt="bandera paraguay"
+                />
+              </div>
+            </a>
+          </div>
+
+          <div class="recetas-destacadas-card">
+            <a href="#"
+              ><img
+                src="./assets/img main/imgrecetasdestacadas/cheescake.jpg"
+                alt="cheescake"
+              />
+
+              <div class="info-recetas-h3">
+                <h3>Cheescake de Maracuyá</h3>
+              </div>
+              <div class="info-recetas-card">
+                <div class="info-recetas">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>90min</p>
+                </div>
+                <img
+                  src="https://img.freepik.com/vector-premium/argentina-bandera-vector-aislado-colores-oficiales-proporcion-correcta_514344-259.jpg"
+                  alt="bandera arg"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /RECETAS DESTACADAS -->
+      <!-- BENEFICIOS EXCLUSIVOS -->
+      <section class="whyus-container">
+        <div class="whyus-h2">
+          <h2>BENEFICIOS EXCLUSIVOS</h2>
+        </div>
+        <div class="whyus-benefit">
+          <div class="whyus-benefit-card">
+            <div class="whyus-h3">
+              <h3>Comunidad de Cocineros</h3>
+            </div>
+            <div class="whyus-content">
+              <p>
+                Unite a nuestra comunidad de amantes de la cocina, comparte tus
+                propias recetas y descubre consejos y tips de cocina de otros
+                apasionados como vos.
+              </p>
+            </div>
+            <div class="whyus-info">
+              <a href="#">Mas info</a>
+            </div>
+          </div>
+
+          <div class="whyus-benefit-card">
+            <div class="whyus-h3">
+              <h3>Actualizaciones Periódicas</h3>
+            </div>
+            <div class="whyus-content">
+              <p>
+                Mantenemos nuestras recetas actualizadas con las últimas
+                tendencias culinarias y estaciones del año para siempre tengas
+                nuevas opciones para probar.
+              </p>
+            </div>
+            <div class="whyus-info">
+              <a href="#">Mas info</a>
+            </div>
+          </div>
+
+          <div class="whyus-benefit-card">
+            <div class="whyus-h3">
+              <h3>Soporte en vivo las 24hs</h3>
+            </div>
+            <div class="whyus-content">
+              <p>
+                Ofrecemos soporte en vivo con expertos culinarios para responder
+                a tus preguntas y ayudarte con cualquier duda que tengas
+                mientras cocinas tus platos favoritos.
+              </p>
+            </div>
+            <div class="whyus-info">
+              <a href="#">Mas info</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /BENEFICIOS EXCLUSIVOS -->
+    </main>
+    <footer>
+      <div class="footer">
+        <ul class="footer-contact">
+          <li>
+            <i class="fa-solid fa-location-dot"></i>Fushimi Inari-taisha 1234
+          </li>
+          <li><i class="fa-solid fa-envelope"></i>sdrecetas@gmail.com</li>
+          <li><i class="fa-solid fa-phone"></i>+5493624111111</li>
+        </ul>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d718616.6473204471!2d135.06302715603397!3d35.03953974850965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f153d2e6d21%3A0x7b1aca1c753ae2e9!2sFushimi%20Inari-taisha!5e0!3m2!1ses-419!2sar!4v1695680379386!5m2!1ses-419!2sar"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="footer-redes">
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#"><i class="fa-brands fa-discord"></i></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>SD - Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
